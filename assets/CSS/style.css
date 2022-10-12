@@ -36,6 +36,11 @@ header i{
     width: 100%;
 }
 
+.btn{
+    background-color: whitesmoke;
+    border: none;
+}
+
 @media only screen and (min-width: 577px) and (max-width: 991px) {
     .mid-pad{
         padding: 0px 15px;
