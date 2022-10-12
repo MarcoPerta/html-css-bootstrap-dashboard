@@ -11,7 +11,7 @@ header .bol{
 
 header i{
     font-size: 20px;
-    padding: 5px;
+    padding: 5px 5px;
 }
 
 .form-control{
@@ -19,4 +19,32 @@ header i{
     height: 35px;
     background-color: lightgrey;
 }
+
+.fa-bell{
+    color: gold;
+}
 /* fine sezione header responsive */
+/* inizio sezione navbar all'interno del main */
+.nav{
+    background-color: #051E34;
+    height: calc(100vh - 65px);
+    background-image: url(../img/sidebar-bg.png);
+}
+
+.nav img{
+    height: 100%;
+    width: 100%;
+}
+
+@media only screen and (min-width: 577px) and (max-width: 991px) {
+    .mid-pad{
+        padding: 0px 15px;
+    }
+}
+
+@media only screen and (min-width: 200px) and (max-width: 576px) {
+    .mob-pad{
+        padding: 0px 12px;
+    }
+}
+/* fine navbar */
