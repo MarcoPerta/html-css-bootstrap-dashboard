@@ -3,7 +3,7 @@ header{
     padding: 15px 0px;
 }
 
-header .bol{
+header .bol, .table .avatar{
     width: 30px;
     height: 30px;
     padding-right: 2px;
@@ -36,9 +36,9 @@ header i{
     width: 100%;
 }
 
-.btn{
+.btn-secondary{
     background-color: whitesmoke;
-    border: none;
+    border: white;
 }
 
 @media only screen and (min-width: 577px) and (max-width: 991px) {
@@ -53,3 +53,11 @@ header i{
     }
 }
 /* fine navbar */
+/* inizio main */
+.bg-pills{
+    background: #113f67;
+}
+
+.fa-angles-right{
+    font-size: 15px;
+}
