@@ -84,7 +84,7 @@
                             <div class="card">
                                 <div class="card-header d-flex justify-content-between">
                                   Prossime classi
-                                  <button type="button" class="btn btn-outline-primary"><i class="fa-solid fa-plus"></i></button>
+                                  <a type="button" class="btn btn-outline-primary" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample"><i class="fa-solid fa-plus"></i></a>
                                 </div>
                             </div>    
                             <div class="card-body">
@@ -269,6 +269,54 @@
                               </div>
                         </div>
                     </div>
+                </div>
+            </div>
+
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasLabel">Form</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                  <div class="input-group mb-3">
+                  <span class="input-group-text" id="basic-addon1">@</span>
+                  <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                  </div>
+                  <div class="mb-3">
+                  <label for="examplepassword" class="form-label">Password</label>
+                  <input type="password" class="form-control" id="examplepassword" aria-describedby="passwordHelp">
+                  </div>
+                  <div class="mb-3">
+                  <label for="exampleIndirizzo" class="form-label">Indirizzo</label>
+                  <input type="Indirizzo" class="form-control" id="exampleIndirizzo" aria-describedby="IndirizzoHelp">
+                  </div>
+                  <div class="mb-3">
+                  <label for="exampleInputCittà" class="form-label">Città</label>
+                  <input type="Città" class="form-control" id="exampleInputCittà" aria-describedby="CittàHelp">
+                  </div>
+                  <label for="exampleInputCittà" class="form-label">Stato</label>
+                  <select class="form-select" aria-label="Default select example">
+                  <option selected>Scegli...</option>
+                  <option value="1">Gotham</option>
+                  <option value="2">Metropolis</option>
+                  <option value="3">Jurassic Park</option>
+                  </select>
+                  <div class="mb-3">
+                  <label for="exampleInputCap" class="form-label">CAP</label>
+                  <input type="CAP" class="form-control" id="exampleInputCAP" aria-describedby="CAPHelp">
+                  </div>
+                  <div class="mb-3">
+                  <label for="formFile" class="form-label">Default file input example</label>
+                  <input class="form-control" type="file" id="formFile">
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                      Seleziona per proseguire
+                    </label>
+                  </div>
+                  <button type="button" class="btn btn-primary">Salva</button>
+                  <button type="button" class="btn btn-warning">Svuota</button>
                 </div>
             </div>
         </div>
