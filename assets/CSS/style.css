@@ -65,3 +65,8 @@ header i{
 .main{
     height: calc(100vh - 65px);
 }
+
+.chart{
+    width: 230px;
+    height: 200px;
+}
