@@ -61,3 +61,7 @@ header i{
 .fa-angles-right{
     font-size: 15px;
 }
+
+.main{
+    height: calc(100vh - 65px);
+}
