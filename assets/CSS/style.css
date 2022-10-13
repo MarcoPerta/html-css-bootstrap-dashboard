@@ -53,7 +53,7 @@ header i{
 }
 /* fine navbar */
 .main, .nav{
-    height: calc(100vh - 65px);
+    height: calc(100vh - 72px);
 }
 /* inizio parte dashboard */
 .bg-pills{
