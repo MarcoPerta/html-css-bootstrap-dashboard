@@ -15,9 +15,12 @@
     <!-- header responsive -->
     <header>
         <div class="container-fluid d-flex justify-content-center align-items-center">
+            <!-- logo -->
             <img class="bol d-lg-none" src="assets/img/mobile-logo.png" alt="">
             <img class="d-none d-lg-block px-1" src="assets/img/logo.svg" alt="">
+            <!-- barra ricerca -->
             <input type="text" class="form-control" placeholder="&#xF002;search" style="font-family:Arial, FontAwesome" aria-label="search">
+            <!-- restanti icone con campanella dropdown -->
             <i class="fa-solid fa-list-ul d-none d-lg-block"></i>
             <i class="fa-solid fa-circle-question d-none d-lg-block"></i>
             <i class="fa-solid fa-ellipsis-vertical d-none d-lg-block"></i>
@@ -33,9 +36,13 @@
             </div>
         </div>
     </header>
+    <!-- fine header -->
 
+    <!-- inizio parte main composto da sidebar e parte centrale scrollabile -->
     <main class="container-fluid">
+        <!-- contenitore generale -->
         <div class="row">
+            <!-- navbar -->
             <div class="col-1 nav p-1 flex-column justify-content-between">
                 <div class="text-white">
                     <div class="py-1 mid-pad mob-pad">                    
@@ -58,9 +65,12 @@
                     </div>
                 </div>    
             </div>
+            <!-- parte centrale dashboard -->
             <div class="col-11 main overflow-auto p-0">
+                <!-- "header" blu della dashboard in alto-->
                 <div class="container-fluid bg-primary text-white">
                     <div class="row">
+                        <!-- parte sinistra -->
                         <div class="col-12 col-lg-8 p-3">
                             <div>
                                 <h2 class="d-inline-block">Boolean</h2>
@@ -72,21 +82,25 @@
                             <span class="badge rounded-pill bg-pills">Boolean web app</span>
                             <span class="badge rounded-pill bg-pills">Boolean blog app</span>
                         </div>
+                        <!-- parte destra -->
                         <div class="col-12 col-lg-4 text-white py-3">
                             <div><span>Studenti online negli ultimi 30 minuti</span></div>
                             <div><h3 class="py-2">125</h3></div>
                         </div>
                     </div>
                 </div>
+                <!-- parte principale dashboard -->
                 <div class="container-fluid p-0">
                     <div class="row">
                         <div class="col-12 col-lg-9">
+                            <!-- intestazione tabella -->
                             <div class="card">
                                 <div class="card-header d-flex justify-content-between">
                                   Prossime classi
                                   <a type="button" class="btn btn-outline-primary" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample"><i class="fa-solid fa-plus"></i></a>
                                 </div>
-                            </div>    
+                            </div>
+                            <!-- tabella-->
                             <div class="card-body">
                                 <table class="table">
                                         <thead>
@@ -166,11 +180,13 @@
                                         </tbody>
                                 </table>
                             </div>
+                            <!-- intestazione sezione FAQ -->
                             <div class="card">
                                 <div class="card-header d-flex justify-content-between">
                                   F.A.Q.
                                 </div>
                             </div> 
+                            <!-- domande risposte FAQ -->
                             <div class="card-body">
                                 <div class="accordion" id="accordionExample">
                                     <div class="accordion-item">
@@ -231,6 +247,7 @@
                             </div> 
                         </div>
                         <div class="col-12 col-lg-3">
+                            <!-- checkbox -->
                             <div class="card">
                                 <div class="card-header">
                                   Todo
@@ -252,6 +269,7 @@
                                   </ul>
                                 </div>
                               </div>
+                              <!-- grafico utenti attivi -->
                               <div class="card">
                                 <img class="chart" src="assets/img/chart.jpg" alt="">
                                  <div class="card-body">
@@ -271,7 +289,8 @@
                     </div>
                 </div>
             </div>
-
+             
+            <!-- offcanvas che parte da destra -->
             <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
                 <div class="offcanvas-header">
                   <h5 class="offcanvas-title" id="offcanvasLabel">Form</h5>

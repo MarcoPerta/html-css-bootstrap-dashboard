@@ -23,11 +23,10 @@ header i{
 .fa-bell{
     color: gold;
 }
-/* fine sezione header responsive */
+/* fine sezione header CSS */
 /* inizio sezione navbar all'interno del main */
 .nav{
     background-color: #051E34;
-    height: calc(100vh - 65px);
     background-image: url(../img/sidebar-bg.png);
 }
 
@@ -53,7 +52,10 @@ header i{
     }
 }
 /* fine navbar */
-/* inizio main */
+.main, .nav{
+    height: calc(100vh - 65px);
+}
+/* inizio parte dashboard */
 .bg-pills{
     background: #113f67;
 }
@@ -62,11 +64,8 @@ header i{
     font-size: 15px;
 }
 
-.main{
-    height: calc(100vh - 65px);
-}
-
 .chart{
     width: 230px;
     height: 200px;
 }
+/* fine */
