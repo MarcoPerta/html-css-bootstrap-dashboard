@@ -40,17 +40,6 @@ header i{
     border: white;
 }
 
-@media only screen and (min-width: 577px) and (max-width: 991px) {
-    .mid-pad{
-        padding: 0px 15px;
-    }
-}
-
-@media only screen and (min-width: 200px) and (max-width: 576px) {
-    .mob-pad{
-        padding: 0px 12px;
-    }
-}
 /* fine navbar */
 .main, .nav{
     height: calc(100vh - 72px);
@@ -58,6 +47,7 @@ header i{
 
 .bg-h:hover{
     background-color: lightgray;
+    opacity: 0.9;
 }
 /* inizio parte dashboard */
 .bg-pills{
@@ -75,4 +65,23 @@ header i{
     width: 230px;
     height: 200px;
 }
-/* fine */
+/* fine main */
+
+/* media query */
+@media only screen and (min-width: 577px) and (max-width: 991px) {
+    .mid-pad{
+        padding: 0px 15px;
+    }
+}
+
+@media only screen and (min-width: 200px) and (max-width: 576px) {
+    .mob-pad{
+        padding: 0px 12px;
+    }
+}
+
+@media only screen and (min-width: 992px){
+    .large-pd{
+        padding-left: 4px;
+    }
+}
