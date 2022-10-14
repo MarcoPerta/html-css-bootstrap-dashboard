@@ -55,6 +55,10 @@ header i{
 .main, .nav{
     height: calc(100vh - 72px);
 }
+
+.bg-h:hover{
+    background-color: lightgray;
+}
 /* inizio parte dashboard */
 .bg-pills{
     background: #005792;
