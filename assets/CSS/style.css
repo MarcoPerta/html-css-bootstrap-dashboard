@@ -57,9 +57,12 @@ header i{
 }
 /* inizio parte dashboard */
 .bg-pills{
-    background: #113f67;
+    background: #005792;
 }
 
+.badge:hover{
+    background: #00204a; 
+}
 .fa-angles-right{
     font-size: 15px;
 }
